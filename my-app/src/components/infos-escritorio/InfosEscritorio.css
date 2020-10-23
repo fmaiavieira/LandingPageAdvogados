@@ -1,0 +1,56 @@
+.InfosEscritorio{
+    background-color:#F8F9FA;
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 60vh 20vh;
+
+
+    grid-template-areas: 
+    'infos-escritorio-imagem infos-escritorio-descricao'
+    'infos-escritorio-estrutura infos-escritorio-atendimento';
+}
+
+.DescricaoDados{
+    background-color:red;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 140px;
+
+    grid-template-areas: 'experiencia clientes exito rentabilidade';
+
+    width: 80%;
+}
+
+.InfosDescricao{
+    align-items: center;
+    background-color: #2A2C24;
+    color: #F8F9FA;
+    display: flex;
+    flex-direction: column;
+}
+
+.InfosDescricao > p{
+    width: 70%;
+}
+.InfosDescricao > button{
+    background-color: #828282;
+    border: none;
+    border-radius: 4px;
+    color: #F8F9FA;
+    font-size: 18pt;
+
+    margin-top: 20px;
+}
+
+.CardInfraestrutura{
+    display: flex;
+}
+
+.CardInfraestrutura > img {
+    height: 100%;
+    width: 40%;
+}
+
+.CardInfraestrutura > div > p {
+    width: 80%;
+}
