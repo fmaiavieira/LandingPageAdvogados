@@ -28,22 +28,22 @@ const especialidades = [
         text: "Direito Digital",
         img: img4
     }, 
-    // {
-    //     text: "Direito Civil",
-    //     img: img5
-    // },
-    // {
-    //     text: "Direito do Consumidor",
-    //     img: img6
-    // },  
-    // {
-    //     text: "Direito Empresarial",
-    //     img: img7
-    // },
-    // {
-    //     text: "Família e Sucessões",
-    //     img: img8
-    // },       
+    {
+        text: "Direito Civil",
+         img: img5
+    },
+    {
+         text: "Direito do Consumidor",
+         img: img6
+    },  
+    {
+         text: "Direito Empresarial",
+         img: img7
+    },
+    {
+         text: "Família e Sucessões",
+         img: img8
+    },       
     ];
 
     const CardList = especialidades.map((especialidade) => 
