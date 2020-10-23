@@ -1,14 +1,11 @@
 import './App.css';
-import Header from './components/Header';
-import Banner from './components/Banner';
+
+import Home from './views/home'
 
 function App() {
   return (
-    <>
-      <Header />
-      <Banner />
-    </>
-  );
+    <Home />
+  )
 }
 
 export default App;
