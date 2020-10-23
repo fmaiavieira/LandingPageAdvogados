@@ -94,3 +94,9 @@
     height: 15%;
 
 }
+
+.Redes{
+    display: flex;
+    height: 60%;
+    align-items: flex-start;
+}
