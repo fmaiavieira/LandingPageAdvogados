@@ -1,0 +1,100 @@
+.contato-conteiner{
+    margin: 0 auto;
+    background-color: #F8F9FA;
+    display: flex;
+    width: 100vw;
+    max-width: 1440px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.foto-conteiner img{
+    height: 30em;
+    border-radius: 8px;
+}
+
+
+.dados p{
+    color: #828282;
+}
+
+#preencha-dados{
+    color: #828282;
+    font-size: xx-large;
+    margin: 0;
+}
+
+.contato-info-box {
+    display: flex;
+    align-content: center;
+    max-width: 434px;
+}
+
+.contato-info-box form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35vw;
+    max-width: 434px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-info-box form input{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    width: 34vw;
+    max-width: 422px;
+    height: 2.5em;
+    outline: none;
+    border: 1px solid rgba(130, 130, 130, .3); 
+    border-radius: 4px;
+
+    box-shadow: 0px 0px 2px 0px #828282;
+}
+
+.inputs-dados{
+    max-width: 434px;
+    height: 18em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.inputs-dados ::-webkit-input-placeholder{
+   color: rgba(42, 44, 36, .5);
+   font-weight: bolder;
+
+}
+
+.inputs-dados input[type="text"]{
+    color: rgba(42, 44, 36, .5);
+    font-weight: bolder;
+    left: 1em;
+}
+
+
+#ipt-msg{
+    display: flex;
+    height: 8em;
+}
+
+#btn-enviar-contato{
+    padding: 0;
+    width: 35vw;
+    max-width: 429px;
+    height: 2em;
+    outline: none;
+    color: #F8F9FA;
+    border: none;
+    border-radius: 4px;
+    background-color: #2A2C24;
+    font-size: medium;
+    font-weight: bolder;
+    margin-top: .5em;
+}
+
