@@ -7,6 +7,7 @@
   background-blend-mode:luminosity;
   position: relative;
 }
+
 .banner-container::after {
   content: '\e825';
   position: absolute;
